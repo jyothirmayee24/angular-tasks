@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   // template:`<button (click)="onClick()">Print</button>{{text}}` 
 })
 export class Component1Component  {
+  title="Task 1"
 private text;
   // constructor() { }
   printText(text){
